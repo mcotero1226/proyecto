@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIR R - Página Oficial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url(https://i.scdn.co/image/ab67616d00001e028613ddae5eddd943b3d2148e);
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
+        #discografia {
+            padding: 20px; 
+            background: #fff; 
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #discografia ul {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-around; 
+            padding: 0;
+        }
+
+        #discografia li {
+            list-style: none; 
+            margin: 10px; 
+            text-align: center;
+        }
+
+        #discografia img {
+            max-width: 150px; 
+            height: auto; 
+            border-radius: 5px;
+        }
+
+        .input {
+            font-family: "Montserrat", sans-serif;
+            width: 100%;
+            height: 45px;
+            padding-left: 2.5rem;
+            box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+            border: 0;
+            border-radius: 12px;
+            background-color: #16171d;
+            outline: none;
+            color: #bdbecb;
+            transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+            cursor: text;
+            z-index: 0;
+            margin-bottom: 20px; 
+        }
+
+        .input::placeholder {
+            color: #bdbecb;
+        }
+
+        .input:hover {
+            box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center; /* Centra los logos horizontalmente */
+            align-items: center; /* Centra los logos verticalmente */
+            margin: 20px 0; /* Espaciado superior e inferior */
+        }
+
+        .logo-container a {
+            margin: 0 10px; /* Espaciado entre los logos */
+            transition: transform 0.3s; /* Añade una transición suave al hover */
+        }
+
+        .logo-container img {
+            width: 50px; /* Ajusta el tamaño de los logos */
+            height: 50px; /* Ajusta el tamaño de los logos */
+        }
+
+        .logo-container a:hover img {
+            transform: scale(1.1); /* Aumenta el tamaño del logo al pasar el mouse */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .song-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .song-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #f8f7f7;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #fffcfc;
+        }
+
+        .song-title {
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+
+        .song-listens,
+        .song-duration {
+            font-size: 0.9em;
+        }
+
+        .number {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .play-pause {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <a href="inicio.html"></a>
+    <header>
+        <h1>𝕶𝖗𝖎𝖘 𝕽</h1>
+        <nav>
+            <ul>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="Galeria.html">Galería</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <input
+            id="query"
+            class="input"
+            type="search"
+            placeholder="Buscar..."
+            name="searchbar"
+        />
+
+        <section id="biografia">
+            <h2>𝕭𝖎𝖔𝖌𝖗𝖆𝖋𝖎́𝖆</h2>
+            <p>Kristian Rangel, más conocida en el mundo del arte como «Kris-R», nació el 12 de febrero de 2001 en la ciudad de Nueva York y se aventuró en el género urbano a la edad de 15 años cuando lanzó su primer sencillo titulado «The Rey de los cielos» en 2016.</p>
+        </section>
+
+        <section id="acerca-de">
+            <h2>𝕬𝖈𝖊𝖗𝖈𝖆 𝖉𝖊 𝕹𝖔𝖘𝖔𝖙𝖗𝖔𝖘</h2>
+            <p>En KIR R, nos dedicamos a la creación y difusión de música urbana que resuena con las experiencias y emociones de nuestra comunidad. Nuestro objetivo es conectar con nuestros oyentes a través de letras auténticas y ritmos pegajosos. Desde nuestros inicios, hemos trabajado arduamente para ofrecer un sonido fresco y original, y estamos comprometidos a seguir innovando y evolucionando en el mundo de la música. Agradecemos a nuestros seguidores por su apoyo constante y esperamos seguir creciendo juntos.</p>
+        </section>
+
+        <section id="discografia">
+            <h2>𝕯𝖎𝖘𝖈𝖔𝖌𝖗𝖆𝖋𝖎́𝖆</h2>
+            <ul>
+                <li>
+                    <img src="https://cdn-images.dzcdn.net/images/cover/b5e3a1d2c01a9b931c4d4587690d599d/0x1900-000000-80-0-0.jpg" alt="Polos Opuestos">
+                    <p>Polos Opuestos</p>
+                </li>
+                <li>
+                    <img src="https://images.genius.com/e9af80e1905185a6d42e2c66aa26f264.1000x1000x1.png" alt="Ni x Putas">
+                    <p>Ni x Putas</p>
+                </li>
+                <li>
+                    <img src="https://i.ytimg.com/vi/phA9CB3vtAU/sddefault.jpg?v=6681e1a6" alt="Que Nos Pasó?">
+                    <p>Que Nos Pasó?</p>
+                </li>
+            </ul>
+        </section>
+
+        <h2>𝕻𝖔𝖕𝖚𝖑𝖆𝖗𝖊𝖘</h2>
+        <ul class="song-list">
+            <li class="song-item">
+                <span class="play-pause">▶</span>
+                <span class="song-title">POLOS OPUESTOS REMIX</span>
+                <span class="song-listens">48.776.717</span>
+                <span class="song-duration">3:36</span>
+            </li>
+            <li class="song-item">
+                <span class="number">2</span>
+                <span class="song-title">ACEITE DE COCO (feat. Ryan... </span>
+                <span class="song-listens">14.032.738</span>
+                <span class="song-duration">6:41</span>
+            </li>
+            <li class="song-item">
+                <span class="number">3</span>
+                <span class="song-title">Ultra Complicado (feat. Seb...</span>
+                <span class="song-listens">5.424.510</span>
+                <span class="song-duration">4:17</span>
+            </li>
+            <li class="song-item">
+                <span class="number">4</span>
+                <span class="song-title">Las Piponas (Remix)</span>
+                <span class="song-listens">35.400.839</span>
+                <span class="song-duration">4:04</span>
+            </li>
+            <li class="song-item">
+                <span class="number">5</span>
+                <span class="song-title">NI X EL PUTXS</span>
+                <span class="song-listens">8.527.500</span>
+                <span class="song-duration">3:07</span>
+            </li>
+        </ul>
+    </div>
+
+       
+    <h2>𝕮𝖔𝖓𝖙𝖆𝖈𝖙𝖔</h2>
+    <div class="logo-container">
+        <a href="https://wa.me/1234567890" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+        </a>
+        <a href="https://www.instagram.com/tu_usuario" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 KIR R. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

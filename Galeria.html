@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Álbumes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        
+        .album {
+            background-color: #1E1E1E;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s;
+        }
+        
+        .album img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .album h2 {
+            margin: 10px 0 5px;
+        }
+        
+        .album p {
+            margin: 0;
+        }
+        
+        .album:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2.5em; /* Tamaño del título */
+            color: #d7d7d7; /* Color dorado para el título */
+        }
+    </style>
+</head>
+<body>
+    <h1>𝕲𝖆𝖑𝖊𝖗𝖎𝖆</h1> <!-- Título de la galería -->
+    <div class="container">
+        <div class="album">
+            <img src="https://cdns-images.dzcdn.net/images/cover/9108c5406dae38c0bd9b1a8c8795b22d/1900x1900-000000-80-0-0.jpg" alt="Sornero">
+            <h2>Sornero</h2>
+            <p>J Balvin, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/68/5b/ec685b3a-87ad-7c47-ed50-46e97db18bc0/198704205323_Cover.jpg/1200x1200bf-60.jpg" alt="Tremenda HP">
+            <h2>Tremenda HP</h2>
+            <p>Kris R., Hades66, Yama Make Them Bounce</p>
+        </div>
+        <div class="album">
+            <img src="https://i.scdn.co/image/ab67616d0000b273345486d66ed1e3c52471885a" alt="Polos Opuestos Remix">
+            <h2>Polos Opuestos Remix</h2>
+            <p>Blessd, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://images.genius.com/55f73343118f7a13a68018a9763b23dc.1000x1000x1.png" alt="Amor D' Band12">
+            <h2>Amor D' Band12</h2>
+            <p>Sharik, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://cdn-images.dzcdn.net/images/cover/a9779f25e0c65ff5f9e4254f35584e11/1900x1900-000000-80-0-0.jpg" alt="Lukas & Poder">
+            <h2>Lukas & Poder</h2>
+            <p>Kris R., Slayter</p>
+        </div>
+        <div class="album">
+            <img src="https://i.scdn.co/image/ab67616d0000b273933bda406cb2e1b7a55afb92" alt="Piponas Fresco">
+            <h2>Piponas Fresco</h2>
+            <p>Argüello, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH1aVnZA5t-AZRBEa411ccMZKJMbOufXq1_l0QnCXvSKUe4AcDBoLiXAoDyBTYuPPZYPo&usqp=CAU" alt="El Exorcita">
+            <h2>Comofeuker</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/2d/6b/8c2d6b2f-879f-b307-c5dd-b79ef76b969d/196872208825.jpg/1200x1200bf-60.jpg" alt="Medallo Pa Europa">
+            <h2>Medallo Pa Europa</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a9/92/62/a9926285-3afb-3753-637d-2a0de89e1256/3848.jpg/1200x1200bf-60.jpg" alt="Donde No Se Ve">
+            <h2>Donde No Se Ve</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://i.scdn.co/image/ab67616d0000b2738613ddae5eddd943b3d2148e" alt="LA KBRA">
+            <h2>LA KBRA</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://images.genius.com/096d77d414a5a55bd391f6db6e143188.1000x1000x1.png" alt=" KARO">
+            <h2>KARO</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+        <div class="album">
+            <img src="https://cdn-images.dzcdn.net/images/cover/0b4d78a71ffe5436c5a6891363f719d0/500x500.jpg" alt="ROSAS & PELUCHES">
+            <h2>ROSAS & PELUCHES</h2>
+            <p>Tales, Totoy El Frío, Kris R.</p>
+        </div>
+    </div>
+</body>
+</html>
